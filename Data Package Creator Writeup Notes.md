@@ -3,8 +3,9 @@
 ![](Data%20Package%20Creator%20Writeup%20Notes/Screenshot%202022-01-26%20at%2009.45.34.png)
 
 Constantly under the impression that I’m six months behind on lab work, I am capital Q - **Queen** - of bad data practices. My computer is a graveyard of poorly labeled .csv files, featuring illustrative headers such as “redo,” “negative pressure why?” and “weird - see notes.”  I was vaguely aware of the existence of data packages, but like learning Italian or traveling more, implementing them in my workflow got slotted in the category of “would be nice if I had the time.”  That clemency, however, was not extended to my research lifeblood - molecular spectroscopy databases, you disorganised beauties you - nor to collaborators who often invoked the following feeling:  
- 
-![](Data%20Package%20Creator%20Writeup%20Notes/norm_normal_file_format_2x.png)
+
+![norm_normal_file_format_2x](https://user-images.githubusercontent.com/4370045/151969473-28d367b8-29ba-47fb-b58a-e3fa3ea502c9.png)
+
 
 Particularly in fields where measurables aren’t tangible macro concepts (see: population) but abstract and insular conventions with many varied representations, clear descriptors of multivariate data are a _must_ in order for that data to be easily used and reproduced.  This is where data packages come in; they bundle up your data with a human and machine readable file containing, at minimum, standardised information regarding structure and contents. In this lil’ post here, we’re going to walk through this process together by packaging data together with its metadata, and then validating the data using Frictionless tools.
 
