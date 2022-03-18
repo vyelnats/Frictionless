@@ -1,0 +1,25 @@
+encoding: utf-8
+format: csv
+hashing: md5
+layout:
+  headerRows:
+    - 2
+name: soilmoisture_timeseries_rafarm2
+path: SoilMoisture_Timeseries_RAfarm2.csv
+profile: tabular-data-resource
+schema:
+  fields:
+    - name: date
+      title: Date
+      type: date
+    - name: SM-SMAP-LN-DESC_V3.2_100_AVG_b20d
+      title: Average soil moisture over 20 day window (m^3/m^3)
+      type: number
+    - name: SM-SMAP-LN-DESC_V3.2_100_CLIM_1d
+      title: Average soil moisture over all years on record for that day of the year
+      type: number
+    - name: SM-SMAP-LN-DESC_V3.2_100_ANOM_AVG
+      title: Average Anomolies 
+      type: number
+scheme: file
+
