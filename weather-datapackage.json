@@ -1,0 +1,124 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "weather.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "MinTemp",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "MaxTemp",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Rainfall",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Evaporation",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Sunshine",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "WindGustDir",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "WindGustSpeed",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "WindDir9am",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "WindDir3pm",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "WindSpeed9am",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "WindSpeed3pm",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Humidity9am",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Humidity3pm",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Pressure9am",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Pressure3pm",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Cloud9am",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Cloud3pm",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Temp9am",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Temp3pm",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "RainToday",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "RISK_MM",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "RainTomorrow",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ]
+}
