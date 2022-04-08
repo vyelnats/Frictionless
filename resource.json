@@ -1,0 +1,97 @@
+{
+  "path": "data-dp.csv",
+  "name": "data-dp",
+  "profile": "tabular-data-resource",
+  "scheme": "file",
+  "format": "csv",
+  "hashing": "md5",
+  "encoding": "utf-8-sig",
+  "schema": {
+    "fields": [
+      {
+        "type": "string",
+        "name": "Lens ID"
+      },
+      {
+        "type": "string",
+        "name": "Title"
+      },
+      {
+        "type": "integer",
+        "name": "Publication Year"
+      },
+      {
+        "type": "string",
+        "name": "Publication Type"
+      },
+      {
+        "type": "string",
+        "name": "Source Title"
+      },
+      {
+        "type": "string",
+        "name": "ISSNs"
+      },
+      {
+        "type": "string",
+        "name": "Publisher"
+      },
+      {
+        "type": "string",
+        "name": "Source Country"
+      },
+      {
+        "type": "string",
+        "name": "Author/s"
+      },
+      {
+        "type": "string",
+        "name": "Abstract"
+      },
+      {
+        "type": "integer",
+        "name": "Volume"
+      },
+      {
+        "type": "string",
+        "name": "Issue Number"
+      },
+      {
+        "type": "string",
+        "name": "Start Page"
+      },
+      {
+        "type": "integer",
+        "name": "End Page"
+      },
+      {
+        "type": "string",
+        "name": "Fields of Study"
+      },
+      {
+        "name": "Keywords",
+        "type": "any"
+      },
+      {
+        "type": "string",
+        "name": "Funding"
+      },
+      {
+        "type": "string",
+        "name": "Source URLs"
+      },
+      {
+        "type": "string",
+        "name": "DOI"
+      },
+      {
+        "type": "string",
+        "name": "References"
+      },
+      {
+        "type": "integer",
+        "name": "Citing Works Count"
+      }
+    ]
+  }
+}
